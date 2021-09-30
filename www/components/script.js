@@ -165,3 +165,5 @@ function parar(){
    personagemObj.velocidadeX = 0;
    personagemObj.velocidadeY = 0;
 }
+
+
