@@ -1,5 +1,6 @@
 /**/
 
+
 canvas{
   background-color: #cd81fa;
   width: 100%;
@@ -14,6 +15,3 @@ button svg {
     height: 40px;
 }
 
-body {
-   align-content: center;
-}
