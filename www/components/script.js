@@ -30,9 +30,8 @@ var obstaculo = [];
 var pontos;
 function inicioJogo(){
   areaJogo.start();
-  personagemObj = new componente("#800080", 10, 120, 40, 40);
+  personagemObj = new componente("#800080", 10, 100, 30, 30);
   pontos = new componente("#800080", 10, 30, 'Consolas', '30px', 'texto');
-  //obstaculo = new componente('blue', 140, 80, 120, 20);
 }
 
 let areaJogo = {
