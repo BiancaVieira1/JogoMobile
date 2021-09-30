@@ -1,6 +1,6 @@
 window.onload = function(){
  inicioJogo();
- 
+
 
 document.querySelector("#direita").addEventListener("click", function(){
    direita();
