@@ -128,8 +128,8 @@ function atualizaAreaJogo(){
     maxVazio = 200;
     vazio = Math.floor(Math.random()*(maxVazio-minVazio+1)+minVazio);
     y = areaJogo.canvas.height - 200;
-    obstaculo.push = (new componente('blue', x,0,altura,10));
-    obstaculo.push = (new componente('blue', x,altura + vazio, x - altura - vazio,10));
+    obstaculo.push (new componente('blue', x,0,altura,10));
+    obstaculo.push (new componente('blue', x,altura + vazio, x - altura - vazio,10));
   }
   
   for(i = 0; i < obstaculo.lenght; i++){
